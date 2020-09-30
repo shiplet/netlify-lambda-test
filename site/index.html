@@ -16,8 +16,8 @@
 
         function init() {
             fetch(`https://netlify-lambda-test.michaelshiplet.com/.netlify/functions/main`)
-            .then(res => res.body())
-            .then(body => console.log(body))
+            .then(res => res.text())
+            .then(body => response.innerText = body)
         }
 
     </script>
