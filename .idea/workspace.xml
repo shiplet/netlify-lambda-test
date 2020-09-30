@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5ce958f-8390-45cc-bc73-09d6639e9d56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netlify.toml" beforeDir="false" afterPath="$PROJECT_DIR$/netlify.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,5 +68,9 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="781" y="349" key="SettingsEditor/-1920.1.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1601485312206" />
+    <state x="1071" y="384" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601486644497">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1071" y="384" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1920.1.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1601486644497" />
   </component>
 </project>
