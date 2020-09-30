@@ -1,4 +1,6 @@
 [build]
-    command = "go build main.go"
+    command = "make build"
     functions = "functions"
     publish = "site"
+[build.environment]
+    GO_IMPORT_PATH = "github.com/shiplet/netlify-lambda-test"
