@@ -7,17 +7,30 @@
 <body>
 
     <h1>Hello, is anyone out there?</h1>
-    <h2 id="response"></h2>
+    <h2 id="greeting"></h2>
+    <h2 id="farewell"></h2>
 
     <script>
-        var response = document.getElementById('response')
+        var greeting = document.getElementById('response')
+        var farewell = document.getElementById('farewell')
 
         init()
 
         function init() {
-            fetch(`https://netlify-lambda-test.michaelshiplet.com/.netlify/api/main`)
-            .then(res => res.text())
-            .then(body => response.innerText = body)
+            getHello()
+            getGoodbye()
+        }
+
+        function getHello() {
+            fetch(`https://netlify-lambda-test.michaelshiplet.com/.netlify/functions/hello`)
+                .then(res => res.text())
+                .then(body => greeting.innerText = body)
+        }
+
+        function getGoodbye() {
+            fetch(`https://netlify-lambda-test.michaelshiplet.com/.netlify/functions/goodbye`)
+                .then(res => res.text())
+                .then(body => farewell.innerText = body)
         }
 
     </script>
