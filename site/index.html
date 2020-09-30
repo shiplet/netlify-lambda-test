@@ -17,18 +17,19 @@
         init()
 
         function init() {
-            getHello()
-            getGoodbye()
+            getHello().then(() => {
+                getGoodbye()
+            })
         }
 
         function getHello() {
-            fetch(`https://netlify-lambda-test.michaelshiplet.com/.netlify/functions/hello`)
+            return fetch(`https://netlify-lambda-test.michaelshiplet.com/.netlify/functions/hello`)
                 .then(res => res.text())
                 .then(body => greeting.innerText = body)
         }
 
         function getGoodbye() {
-            fetch(`https://netlify-lambda-test.michaelshiplet.com/.netlify/functions/goodbye`)
+            return fetch(`https://netlify-lambda-test.michaelshiplet.com/.netlify/functions/goodbye`)
                 .then(res => res.text())
                 .then(body => farewell.innerText = body)
         }
